@@ -28,11 +28,12 @@ There was also error reported. You may need to manually install
 $ npm install node-sass 
 ``` 
 
-The application will then be available by pointing your browser to:
+If everything is good, the application will then be available by pointing your browser to:
 
 ```
 http://localhost:3000
 ```
+and you will see what you have seen on the demo website provided. 
 
 ## Client-side JavaScript
 
