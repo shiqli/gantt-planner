@@ -11,14 +11,22 @@ Demo can be found here: https://gantt-planner.herokuapp.com
 In order to download, build and run this application you will need to do the following:
 
 ```shell
-$ git clone git@github.com:kgish/gantt-planner.git
+$ git clone git@github.com:shiqli/gantt-planner.git
 $ bundle install
 $ cd frontend
-$ npm install && bower install
+$ npm install && bower install #you may need to install bower if you are using linux 18.04
 $ cd ..
 $ rails db:seed
 $ bundle exec rails server
 ```
+### watchman error
+You may need to install watchman by following facebook's instruction(https://facebook.github.io/watchman/docs/install.html). 
+### node-sass 
+There was also error reported. You may need to manually install 
+
+```shell 
+$ npm install node-sass 
+``` 
 
 The application will then be available by pointing your browser to:
 
