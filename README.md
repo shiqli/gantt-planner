@@ -346,11 +346,12 @@ $ heroku open
 * [Rack::Attack](https://github.com/kickstarter/rack-attack)
 
 
-## Author
+## Contribution
+ 
+### Original author
 
 Kiffin Gish \< kiffin.gish@planet.nl \>
 
-[Gishtech](http://gishtech.com)  
-Advanced Software Development for the Web
+### Instruction on WSL Ubuntu
 
-"You're never too old to learn new stuff..."
+Mike Li 
