@@ -19,9 +19,34 @@ $ cd ..
 $ rails db:seed
 $ bundle exec rails server
 ```
-### watchman error
+### Installation on WSL Ubuntu 18.04
+#### Database setup 
+If you do not have PostgreSQL you should install it
+
+```shell 
+$ sudo apt update
+$ sudo apt install install postgresql postgresql-contrib
+```
+
+Then start the service
+
+```shell 
+$ service postgresql start
+```
+
+The default user installed for postgresql will be postgres. You need to switch to this account: 
+
+```shell 
+$ sudu -i -u postgres 
+$ psql 
+``` 
+
+You now can follow the instruction on https://www.postgresql.org to add the user, password, and create database. Last thing you need to do is to modify the configuration file for rails server located /config/database.yml to match the database that you just created.  
+
+#### watchman error
 You may need to install watchman by following facebook's instruction(https://facebook.github.io/watchman/docs/install.html). 
-### node-sass 
+
+#### node-sass 
 There was also error reported. You may need to manually install 
 
 ```shell 
